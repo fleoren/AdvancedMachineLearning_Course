@@ -60,4 +60,11 @@ def move_agent(from_sq,to_sq):
 # first time: save policy as best_policy
 	# if reward(current_policy) > reward(best_policy) then best_policy = current_policy
 
+# create vector length width*length+1 called max_reward with max_reward[i] the max reward we've gotten with a policy of length i
+# start filling it
+# after width*length*10 iterations
+	# change uniform random distribution to a distribution pondered by the max reward
+	# this way the agent will stop trying policies that are too long/short
+	# and find the optimal size much faster
+
 
