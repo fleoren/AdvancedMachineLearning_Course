@@ -27,9 +27,13 @@ class Square:
 	def __init__(self,x,y):
 		self.x = x
 		self.y = y
+		self.score = -1
 	def wind(self):
 		return wind_matrix[x,y]
+	def make_goal(self):
+		self.score = 15
 
+# agent is initialized with reward = 0 and each step adds Square.score to the reward
 
 def move_agent(from_sq,to_sq):
 	#if it tries to leave the grid, it stays on the square where it was
