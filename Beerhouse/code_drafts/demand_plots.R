@@ -2,7 +2,7 @@
 # It also munches the "visual friendly" yearly demand to a decent csv file
 # that can be read directly as demand trend
 
-wd <- "" ## where to find the
+wd <- "/Users/fernanda/Documents/Batmelon/ITAM/AprendizajeMaquina2/git_repo/Beerhouse/aux_documents/" ## where to find the
       ## excel files that contain demand trends for consumer
 setwd(wd)
 

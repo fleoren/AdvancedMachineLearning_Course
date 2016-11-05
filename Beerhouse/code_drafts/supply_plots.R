@@ -1,7 +1,7 @@
 # This Script takes the consolidated table with harvest seasons
 #"1. Creates a decent csv that can be read directly as fields trend
 
-wd <- "" ## where to find the
+wd <- "/Users/fernanda/Documents/Batmelon/ITAM/AprendizajeMaquina2/git_repo/Beerhouse/aux_documents/" ## where to find the
 ## excel files that contain demand trends for consumer
 setwd(wd)
 
